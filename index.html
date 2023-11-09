@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Development Test</title>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
                     <p>sell on jumia</p>
                 </div>
                 <div class="wrap6">
-                    <img src="images/Jumia-Logo.png" alt="" width="50px" height="50px">
+                    <img src="images/Jumia-Logo.png" alt="" width="80px" height="30px">
                     <span>Food</span>
                     <span>Pay</span>
                     <span>Force</span>
@@ -29,21 +29,34 @@
                         <i class="fa fa-bars" aria-hidden="true"></i>
                     </div>
                     <div class="log">
-                        <img src="images/Jumia-Logo.png" alt="" width="=50px" height="50px">
+                        <img src="images/Jumia-Logo.png" alt="" width="=80px" height="70px">
                     </div>
                 </div>
                 <div class="searchbar">
                     <form action="">
                         <div class="icon">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <input type="search" placeholder="search products,brands and categories">
                         </div>
-                        <input type="search" placeholder="search products,brands and categories">
+                        <div class="searhbx">
+                            <button class="submit">SEARCH</button>
+                        </div>
                     </form>
                 </div>
                 <div class="nav-links">
                     <ul>
-                        <li><a href=""></a>Hi,Eve</li>
-                        <li><a href=""></a>Help</li>
-                        <li><a href=""></a>Chart</li>
+                        <li>
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <a href="">Hi,Lomoro</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-question-circle" aria-hidden="true"></i>
+                            <a href="">Help</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            <a href="">Chart</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -51,13 +64,34 @@
         <div class="wrapper">
             <div class="sidebar">
                 <ul>
-                    <li><a href="">My Jumia Account</a></li>
-                    <li><a href="">Orders</a></li>
-                    <li><a href="">Inbox</a></li>
-                    <li><a href="">Pending Reviews</a></li>
-                    <li><a href="">Vouchers</a></li>
-                    <li><a href="">Saved Items</a></li>
-                    <li><a href="">Recently Reviewed</a></li>
+                    <li>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <a href="">My Jumia Account</a>
+                    </li>
+                    <li class="active">
+                        <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                        <a href="">Orders</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-inbox" aria-hidden="true"></i>
+                        <a href="">Inbox</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                        <a href="">Pending Reviews</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-gift" aria-hidden="true"></i>
+                        <a href="">Vouchers</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                        <a href="">Saved Items</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        <a href="">Recently Reviewed</a>
+                    </li>
                 </ul>
                 <hr>
                 <ul>
@@ -72,49 +106,61 @@
                 </div>
                 <hr>
                 <div class="order-type">
-                    <div>
-                        <a href="">OPEN ORDERS</a>
+                    <div class="open">
+                        <a href="">OPEN ORDERS(22)</a>
                     </div>
-                    <div>
+                    <div class="close">
                         <a href="">CLOSE ORDERS(4)</a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-bx">
-                        <div class="bx">
-                            <img src="images/1.jpg" alt="">
-                            <div>
-                                <p>Metal Folder Adjustable stand for Laptop-Silver</p>
-                                <p>Order 305397561</p>
-                                <p>Qty 2</p>
-                                <a class="btn" >Delivered</a>
-                                <p>on 16-08</p>
+                        <div class="cardbody">
+                            <div class="info">
+                                    <img src="images/1.jpg" alt="">
+                                <div>
+                                    <p>Metal Folder Adjustable stand for Laptop-Silver</p>
+                                    <p>Order 305397561</p>
+                                    <p>Qty 2</p>
+                                    <a class="btn" >Delivered</a>
+                                    <p>on 16-08</p>
+                                </div>
                             </div>
                             <div>
-                                <a href="">see details</a>
+                                <a href="" class="dbtn">see details</a>
                             </div>
                         </div>
-                        <div class="bx">
-                            <img src="images/2.jpg" alt="">
-                            <div>
-                                <p>5 pieces of Diaper bag</p>
-                                <p>Order 305397561</p>
-                                <p>Qty 2</p>
-                                <a class="btn" >Delivered</a>
-                                <p>on 16-08</p>
+                        <div class="cardbody">
+                            <div class="info">
+                                    <img src="images/2.jpg" alt="">
+                                <div>
+                                    <p>Metal Folder Adjustable stand for Laptop-Silver</p>
+                                    <p>Order 305397561</p>
+                                    <p>Qty 2</p>
+                                    <a class="btn" >Delivered</a>
+                                    <p>on 16-08</p>
+                                </div>
                             </div>
+                            <div>
+                                <a href="" class="dbtn">see details</a>
+                            </div>
+                        </div>
+                        <div class="cardbody">
+                            <div class="info">
+                                    <img src="images/1 (1).jpg" alt="">
+                                <div>
+                                    <p>Ladies hand bag</p>
+                                    <p>Order 305397561</p>
+                                    <p>Qty 1</p>
+                                    <a class="btn" >Delivered</a>
+                                    <p>on 16-08</p>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="" class="dbtn">see details</a>
+                            </div>
+                        </div>
 
-                        </div>
-                        <div class="bx">
-                            <img src="images/2.jpg" alt="">
-                            <div>
-                                <p>5 pieces of Diaper bag</p>
-                                <p>Order 305397561</p>
-                                <p>Qty 2</p>
-                                <a class="btn" >Delivered</a>
-                                <p>on 16-08</p>
-                            </div>
-                        </div>
                     </div>
                     </div>
                 </div>
