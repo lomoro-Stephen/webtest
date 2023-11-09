@@ -13,9 +13,12 @@
     --border-radius: 5px;
     --txt-color:#000;
     --background2: #dadada;
+    --color: #ec6e06;
+    --color2: #fff;
+    --bg:#f1f1f1;
 }
 body{
-    background: #f1f1f1;
+    background: var(--bg);
 }
 .container{
     width: 100%;
@@ -56,7 +59,7 @@ body{
 }
 .wrap6 img:hover, .wrap6 span:hover{
     cursor: pointer;
-    color: #ec6e06;
+    color: var(--color);
 }
 .logo-wrap{
     margin-left: 30px;
@@ -69,8 +72,12 @@ body{
     font-size: 30px;
     margin-right: 30px;
 }
+.menu i:hover{
+    color: var(--color);
+    cursor: pointer;
+}
 nav{
-    background: #ffffff;
+    background: var(--color2);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,15 +117,15 @@ form .icon input{
 }
 .submit{
     padding: 10px;
-    background: #ec6e06;
+    background: var(--color);
     border: none;
     cursor: pointer;
     font-size: 15px;
-    color: #ffffff;
+    color: var(--color2);
     border-radius: 5px;
 }
 .dbtn{
-    color: #ec6e06;
+    color: var(--color);
     text-transform: uppercase;
 }
 .nav-links ul{
@@ -131,11 +138,11 @@ form .icon input{
 }
 .nav-links ul li a{
     padding-right: 10px;
-    color: #000;
+    color: var(--txt-color);
     transition: 0.5s ease all;
 }
 .nav-links ul li:hover {
-    color: #ec6e06;
+    color: var(--color);
 }
 .wrapper{
     width: 100%;
@@ -147,7 +154,7 @@ form .icon input{
     height: 70%;
 }
 .sidebar{
-background: #fff;
+background: var(--color2);
 border-radius: var(--border-radius);
 }
 .sidebar ul{
@@ -156,10 +163,10 @@ border-radius: var(--border-radius);
 .sidebar ul li{
 transition: 0.5s ease all;
 padding: 15px 0 15px 0;
-color: #000;
+color: var(--txt-color);
 }
 .sidebar ul li a{
-    color: #000;
+    color: var(--txt-color);
     padding: 10px;
     font-size: 14px;
 }
@@ -175,7 +182,7 @@ hr{
 }
 .cards{
     border-radius: var(--border-radius);
-    background: #fff;
+    background: var(--color2);
 }
 .card-title{
     padding: 10px;
@@ -186,20 +193,20 @@ hr{
     padding: 10px;
 }
 .order-type .open a{
-    color: #ec6e06;
+    color: var(--color);
 }
 .order-type .close{
     padding: 10px;
 }
 .order-type .open{
     transition: 0.5s ease all;
-    border-bottom: 2px solid #ec6e06;;
+    border-bottom: 2px solid var(--color);
     padding: 10px;
-    color: #ec6e06;
+    color: var(--color);
 }
 .order-type div:hover{
-    border-bottom: 1px solid #ec6e06;
-    color: #ec6e06;
+    border-bottom: 1px solid var(--color);
+    color: var(--color);
 }
 .card{
     width: 100%;
@@ -222,7 +229,7 @@ hr{
     padding: 5px;
     margin-top: 10px;
     border-radius: 5px;
-    color: #fff;
+    color: var(--color2);
     font-size: 12px;
 }
 
